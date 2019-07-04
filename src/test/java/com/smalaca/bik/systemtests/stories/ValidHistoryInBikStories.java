@@ -24,6 +24,6 @@ public class ValidHistoryInBikStories extends JBehaveConfiguration {
 
     @Then("status is valid")
     public void statusIsValid() {
-        assertThat(status).isEqualTo(CreditGrantedScenario.CREDIT_STATUS);
+        assertThat(status).isEqualTo(CreditGrantedScenario.BIK_STATUS);
     }
 }

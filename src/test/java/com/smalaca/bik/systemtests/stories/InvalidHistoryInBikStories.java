@@ -24,6 +24,6 @@ public class InvalidHistoryInBikStories extends JBehaveConfiguration {
 
     @Then("status is invalid")
     public void statusIsInvalid() {
-        assertThat(status).isEqualTo(CreditNotGrantedBikInvalidScenario.CREDIT_STATUS);
+        assertThat(status).isEqualTo(CreditNotGrantedBikInvalidScenario.BIK_STATUS);
     }
 }
